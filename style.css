@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ font-family: "Poppins", sans-serif
+}
+body{
+ background-image: url(image.jpg);
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+ width: 100%;
+ height:100vh;
+ position: relative;
+
+}
+.container{
+ background: ;
+ height: 50px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding-top: 20px;
+}
+.container h1{
+ color: tomato;
+}
+.container a{
+ color: white;
+}
+.search{
+
+ display: flex;
+}
+.search button{
+ background: tomato;
+ padding: 7px 10px;
+ border: 0px;
+}
+.search input{
+ height: 32px;
+ border:2px tomato solid;
+}
+ul{
+ width: 50%;
+ list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+a{
+ text-decoration: none;
+}
+.content{
+
+ 
+}
+.letter{
+ background-color:;
+ width: 50%;
+}
+.content button{
+ border-radius: 9px;
+ padding:5px 30px;
+ margin-top: 20px;
+ border: 0;
+ background-color: tomato;
+}
+h2{
+ font-size: 40px ;
+}
+h1{
+ font-size: 50px;
+}
+.login{
+ background: black;
+ text-align: center;
+ width: 245px;
+
+}
+p{
+ color: aliceblue;
+}
+.login button{
+ padding: 7px 30px;
+ border-radius: 10px;
+ background-color: white;
+ color: tomato;
+ font-size: 19px;
+ margin: 20px;
+ border: 0px;
+}
+.login input{
+ background-color: black;
+ font-size: 19px;
+ margin-top: 30px;
+ border-top:0 ;
+ border-left:0 ;
+ border-right:0 ;
+ border-color: tomato;
+
+ 
+}
+.p{
+ background-color: tomato;
+ color: black;
+}
+
+.login a{
+ color: tomato;
+}
+i{
+ color: white;
+ padding: 10px 6px;
+}
+.content{
+
+ width: 100%;
+ height: 100vh;
+ display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.login{
+ border-radius: 10px;
+ width: 300px;
+}
+.butt{
+ width: 200px;
+}
+.login .butto{
+ width: 200px;
+ background-color: tomato;
+ color: black;
+}
+.with{
+ margin: 12px 0px;
+}
+.login::placeholder{
+ color: white;
+
+}
+.letter h1{
+ color: tomato;
+}
+h2{
+ color: white;
+}
+.search::placeholder {
+ padding: 0px 9px;
+}
+button:hover{
+ cursor: pointer;
+}
+.login input{
+ 
+ color: white;
+}
+.container a:hover{
+ color: black;
+
+}
+@media (max-width:500px) {
+  .container{
+   flex-direction: column;
+  height: auto;
+  ;
+
+  }
+  ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+  }
+  .container input,button{
+    margin-top: 20px;
+  }
+  .content{
+    flex-wrap: wrap;
+  }
+  .letter{
+    width: 100%;
+  }
+  .login{
+    width: 100%;
+    text-align:center;
+  }
+}
